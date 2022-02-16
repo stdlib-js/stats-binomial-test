@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-binomial-test",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Exact test for the success probability in a Bernoulli experiment.",
   "license": "Apache-2.0",
   "author": {
