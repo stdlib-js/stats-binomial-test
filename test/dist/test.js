@@ -29,9 +29,9 @@ var binomialTest = require( './../../dist' );
 
 // FIXTURES //
 
-var highP = require( './../..xtures/r/high_p.json' );
-var mediumP = require( './../..xtures/r/medium_p.json' );
-var lowP = require( './../..xtures/r/low_p.json' );
+var highP = require( './../fixtures/r/high_p.json' );
+var mediumP = require( './../fixtures/r/medium_p.json' );
+var lowP = require( './../fixtures/r/low_p.json' );
 
 
 // TESTS //
