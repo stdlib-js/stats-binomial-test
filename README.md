@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import binomialTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-binomial-test@deno/mod.js';
+import binomialTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-binomial-test@v0.2.0-deno/mod.js';
 ```
 
 #### binomialTest( x\[, n]\[, opts] )
@@ -192,7 +192,7 @@ var table = out.print();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import binomialTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-binomial-test@deno/mod.js';
+import binomialTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-binomial-test@v0.2.0-deno/mod.js';
 
 var out = binomialTest( 682, 925 );
 /* returns
