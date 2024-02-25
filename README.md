@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import binomialTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-binomial-test@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-binomial-test/tags). For example,
+
+```javascript
 import binomialTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-binomial-test@v0.2.1-deno/mod.js';
 ```
 
@@ -192,7 +197,7 @@ var table = out.print();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import binomialTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-binomial-test@v0.2.1-deno/mod.js';
+import binomialTest from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-binomial-test@deno/mod.js';
 
 var out = binomialTest( 682, 925 );
 /* returns
